@@ -1,0 +1,29 @@
+
+ChestPrice: 100
+
+HologramHeight: 3.5
+
+SellInterval: 1800
+
+IntervalHoloReplacer: 15
+
+DataSaveInterval: 30
+
+
+UseParticles: true
+ParticleDelayPerTick: 2
+
+MoneyCollectedSound: 'ENTITY_PLAYER_LEVELUP'
+CreatedChestSound: 'ENTITY_PLAYER_LEVELUP'
+DeletedChestSound: 'ENTITY_VILLAGER_HURT'
+ClosedManageItemsMenuSound: 'ENTITY_PLAYER_LEVELUP'
+StartSellingSoundSound: 'ENTITY_PLAYER_LEVELUP'
+StopSellingSound: 'ENTITY_VILLAGER_HURT'
+NoSpaceSound: 'ENTITY_VILLAGER_HURT'
+
+PriceSource: Essentials
+CustomPrices:
+  DIAMOND:
+    Price: 100
+  IRON_INGOT:
+    Price: 50

@@ -1,0 +1,9 @@
+name: AutoSellChest
+version: ${project.version}
+main: me.dalot.AutoSellChest
+api-version: 1.19
+authors: [ Dalot421 ]
+softdepend: [HolographicDisplays, Essentials, Vault]
+commands:
+  asc:
+    aliases: autosellchest

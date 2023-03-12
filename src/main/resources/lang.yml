@@ -1,0 +1,130 @@
+
+Prefix: '&7[&bAutoSellChest&7]'
+ChestCreated: '&Sell Chest er oprettet. Du kan se menuer ved at trykke på den.'
+BoughtChest: '&7Du har købt en sell chest. Placer den for at bruge den.'
+NotEnoughMoney: '&7Du har ikke nok penge til at købe dette.'
+AlreadyHaveChest: '&7Du har allerede en sell chest. Du skal slette den med /asc delete for at åbne en ny en.'
+ChestRemoved: '&7Du har nu slettet din sell chest.'
+YouDontHaveChest: '&7Du har ikke en sell chest.'
+CantRemoveWithBreakOwner: '&7Du kan ikke fjerne den sell chest ved at smadre den. Du skal bruge /asc delete for at slette den.'
+CantRemoveWithBreakOther: '&7Du kan ikke fjerne denne kiste, da den tilhører %player%.'
+StartedSelling: '&7Du startede din Auto Selling Chest. Du kan stoppe den med /asc stop'
+StoppedSelling: '&7Du stoppede din Auto Selling Chest. Du kan starte den med &b/asc start'
+ItemsSaved: '&7Du har nu gemt dine items til databasen.'
+ItemsSold: '&7Items i din sell chest er nu blevet solgt. Du kan indsamle %money% med /asc collect'
+MoneyCollected: '&7Du fik %money%$ fra din Auto Selling Chest.'
+NoMoneyToCollected: '&7Din sell chest har 0$ så du kan ikke indsamle noget.'
+PlayerNotFound: '&7Spilleren %player% blev ikke fundet.'
+ChestRemovedAdmin: '&7Du har nu slettet %player%''s kiste.'
+ChestRemovedPlayer: '&7Din kiste blev slettet af %player%.'
+NoPermission: '&7Du har ikke adgang til at bruge denne kommando.'
+CantOpenThisChest: '&7Du kan ikke åbne andre spilleres sell chest.'
+HelpCommand:
+  - '&7Brug /asc get for at få en sell chest..'
+  - '&7Brug /asc delete for at slette din sell chest.'
+  - '&7Brug /asc collect for at indsamle penge fra din sell chest.'
+  - '&7Brug /asc help for at se denne besked.'
+TimeNames:
+  Hour: 'hour'
+  Hours: 'hours'
+  Minute: 'minute'
+  Minutes: 'minutes'
+  Second: 'second'
+  Seconds: 'seconds'
+  Now: '&a&lNOW'
+MoneyCollectedTitle:
+  Title: '&b+%money%$'
+  SubTitle: '&7Tilføjet til din pung'
+NoSpaceTitle:
+  Title: '&bcIKKE PLADS'
+  SubTitle: '&7Du har ikke nok plads'
+NoMoneyTitle:
+  Title: '&bAuto Sell chest'
+  SubTitle: '&cDu har 0$'
+ItemsAddedOrRemovedTitle:
+  Title: '&bItems Gemt'
+  SubTitle: '&7Fjernet eller tilføjet items fra din kiste'
+ChestPlacedTitle:
+  Title: '&bAuto Sell Chest'
+  SubTitle: '&7Kiste nu oprettet'
+Status:
+  working: "&a&lIGANG"
+  stopped: "&c&lSTOPPET"
+ChestItem:
+  Material: CHEST
+  Name: '&aAuto Sell Chest'
+  Lore:
+    - ''
+    - ' &8&7Du kan placere denne'
+    - ' &8&7kiste for at oprette'
+    - ' &8&een auto selling chest'
+HologramLines:
+  - '&b&lAUTO SELL CHEST'
+  - ''
+  - '&7Status: %status%'
+  - '&7Items: &b%items%'
+  - '&7Penge: &b%money%'
+  - '&7Sell Time: &b%time%'
+  - ''
+  - '&7Tryk for at tilpas'
+Menus:
+  ChestMenu:
+    Size: 27
+    Title: '&8Auto Sell Chest - &bMain'
+    Filler: 'GRAY_STAINED_GLASS_PANE'
+    Items:
+      ManageItems:
+        Name: '&aTilpas dine items'
+        Block: 'CHEST'
+        Slot: 10
+        Lore:
+          - ''
+          - ' &8&7Du kan se alle '
+          - ' &8&7dine items her '
+          - ' &8&7og du kan tilføje dem'
+          - ''
+          - ' &8[&a&6Usage: &7/asc chest '
+      Money:
+        Name: '&aCollect Money'
+        Block: 'SUNFLOWER'
+        Slot: 13
+        Lore:
+          - ''
+          - ' &8&7Du har  &a%money% '
+          - ' &8&7penge du kan indsamle'
+          - ''
+          - ' &8&7Tryk for at indsamle '
+          - ''
+          - ' &8[&a&6Usage: &7/asc collect '
+      Start:
+        Name: '&aStart Chest'
+        Block: 'LIME_WOOL'
+        Slot: 16
+        Lore:
+          - ''
+          - ' &8&7Tryk her for at starte'
+          - ' &8&7dine auto selling chest '
+          - ''
+          - ' &8[&a&6Usage: &7/asc start '
+      Stop:
+        Name: '&aStop Chest'
+        Block: 'RED_WOOL'
+        Slot: 16
+        Lore:
+          - ''
+          - ' &8&7Tryk her for at stoppe'
+          - ' &8&7din auto selling chest '
+          - ''
+          - ' &8[&a&6Usage: &7/asc stop '
+  ManageItems:
+    Size: 54
+    Title: '&8Auto Sell Chest - &bTilpas Items'
+    Items:
+      ManageItems:
+        Name: '&aManage Your Items'
+        Block: 'CHEST'
+        Slot: 4
+        Lore:
+          - ''
+          - ' &8&7Placer dine items '
+          - ' &8&7her for at sælge dem '
