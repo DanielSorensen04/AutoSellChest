@@ -32,7 +32,7 @@ public class SellChest {
     public boolean status;
 
     public Inventory itemsInventory;
-
+ 
     public SellChest(ArrayList<ItemStack> contents, Location loc, UUID owner, String ownerName, boolean status) {
         this.contents = contents;
         this.loc = loc;

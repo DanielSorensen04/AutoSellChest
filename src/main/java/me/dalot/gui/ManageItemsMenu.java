@@ -10,7 +10,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 public class ManageItemsMenu {
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
